@@ -1,0 +1,79 @@
+:root {
+    --dark-orange-web:  #F58D24ff;
+    --icterine:         #F9FD6Aff;
+    --van-dyke:         #453331ff;
+    --gunmetal:         #1D303Fff;
+    --rich-black:       #121C25ff;
+    --text:             rgb(173, 213, 247);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+    background-color: var(--gunmetal);
+}
+.logo {
+    margin-right: auto;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-end;
+}
+ul li {
+    list-style-type: none;
+    margin: 20px 40px;
+}
+ul li a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 15px 30px;
+    font-size: 25px;
+}
+.nav-btn {
+    margin: 10px 40px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 4px 25px var(--rich-black);
+    background-color: var(--dark-orange-web);
+    color: var(--text);
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.intro-name {
+    margin: 100px 0 0 80px; 
+    font-size: 30px;
+    color: var(--text);
+}
+.name {
+    font-size: 100px;
+    margin-left: 100px;
+}
+.job-title {
+    font-size: 40px;
+    margin-left: 370px;
+}
+.summary-paragraph {
+    margin: 50px;
+    font-size: 30px;
+    color: var(--text);
+}
+#portfolio {
+    width: 170px;
+    height: 60px;
+    margin-left: 40%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 4px 25px var(--rich-black);
+    background-color: var(--dark-orange-web);
+    color: var(--text);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}

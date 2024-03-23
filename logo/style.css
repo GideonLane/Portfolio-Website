@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Bevan:ital@0;1&family=Cabin+Condensed:wght@400;200;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+    --dark-orange-web:  #F58D24ff;
+    --icterine:         #F9FD6Aff;
+    --van-dyke:         #453331ff;
+    --gunmetal:         #1D303Fff;
+    --rich-black:       #121C25ff;
+    --text:             rgb(173, 213, 247);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--gunmetal);
+}
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    border: 5px solid var(--icterine);
+    text-align: center;
+    padding: 40px 50px;
+}
+.first-second {
+    font-size: 70px;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+.first {
+    color: var(--dark-orange-web);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    z-index: 1;
+    background-color: transparent;
+    text-shadow: 4px 4px 15px var(--dark-orange-web);
+}
+.second {
+    color: var(--text);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    padding: 5px 15px;
+}
