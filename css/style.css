@@ -17,12 +17,16 @@ html {
 }
 .logo {
     margin-right: auto;
+    display: inline-block;
 }
 ul{
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: flex-end;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: -120px;
 }
 ul li {
     list-style-type: none;
