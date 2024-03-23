@@ -21,27 +21,60 @@
     position: absolute;
     left: 40%;
     top: 20%;
-    border: 5px solid var(--icterine);
+    border: 8px double var(--dark-orange-web);
+    box-shadow: 4px 3px 20px var(--rich-black);
     text-align: center;
     padding: 40px 50px;
 }
 .first-second {
-    font-size: 70px;
+    font-size: 80px;
     font-family: "Balsamiq Sans", sans-serif;
 }
 .first {
-    color: var(--dark-orange-web);
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:var(--dark-orange-web);
     position: absolute;
-    top: 30%;
-    left: 40%;
+    top: 20%;
+    left: 42%;
     z-index: 1;
     background-color: transparent;
-    text-shadow: 4px 4px 15px var(--dark-orange-web);
+    text-shadow: 4px 4px 12px var(--gunmetal);
 }
 .second {
     color: var(--text);
     position: absolute;
-    top: 30%;
-    left: 30%;
+    text-shadow: 4px 4px 15px var(--van-dyke);
+    top: 12%;
+    left: 25%;
     padding: 5px 15px;
 }
+.hook1, .hook2 {
+    font-size: 30px;
+    color: transparent;
+    text-shadow: 2px 2px 5px var(--rich-black);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:var(--dark-orange-web);
+}
+.hook1 {
+    position: absolute;
+    top: 21%;
+    left: 44%;
+}
+.hook2 {
+    position: absolute;
+    top: 21%;
+    left: 41%;
+}
+.o {
+    width: 25px;
+    height: 25px;
+    border: solid 3px var(--dark-orange-web);
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 21.5%;
+    left: 42.34%;
+
+}
+
